@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!--组合渐变-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="5000">
+    <!--透明度由1到0.5-->
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0.5">
+
+    </alpha>
+    <!--已自身中心 旋转7200°-->
+    <rotate
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="7200">
+
+    </rotate>
+    <!--以自身中心缩放为原来的一半-->
+    <scale
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="50%"
+        android:toYScale="50%">
+
+    </scale>
+    <!--由屏幕左上角位移到屏幕右下角-->
+    <translate
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="100%p"
+        android:toYDelta="100%p">
+
+    </translate>
+</set>

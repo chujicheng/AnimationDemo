@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--在两秒的时间里以自身中心为原点旋转360度-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="2000"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:pivotX="50%"
+    android:pivotY="50%">
+
+</rotate>
